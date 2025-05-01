@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Volkswagen România</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/originallogo.avif" alt="Volkswagen Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="istorie.html">Istorie</a></li>
+                <li><a href="modele.html">Modele</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Contact Volkswagen România</h1>
+            <p>Ai întrebări sau vrei să afli mai multe? Suntem aici să te ajutăm.</p>
+        </section>
+
+        <section class="contact-info">
+            <h2>Informații de Contact</h2>
+            <p><strong>Adresă:</strong> Bulevardul Pipera nr. 2, Clădirea „Porsche”, Voluntari, Ilfov</p>
+            <p><strong>Telefon:</strong> +40212 032 888</p>
+            <p><strong>Email:</strong> <a href="mailto:contact@volkswagen.ro">contact@volkswagen.ro</a></p>
+            <p><strong>Program:</strong> Luni - Vineri: 09:00 - 18:00</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Trimite un Mesaj</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+
+        <section class="dealer-locator">
+            <h2>Dealer Volkswagen</h2>
+            <p>Găsește cel mai apropiat dealer sau showroom Volkswagen din România:</p>
+            <a href="https://www.volkswagen.ro/contact-1/contact-1" target="_blank">Căutare dealer</a>
+
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.7013718578925!2d26.116780315402876!3d44.50056627910116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ffb9a5edaffd%3A0x24a4534e2f2a6613!2sVolkswagen%20Romania!5e0!3m2!1sro!2sro!4v1681234567890!5m2!1sro!2sro" 
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="test-drive">
+            <h2>Programează un Test Drive</h2>
+            <form action="submit_testdrive.php" method="POST">
+                <label for="nume">Nume complet:</label>
+                <input type="text" id="nume" name="nume" required>
+
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon" required> <br>
+
+                <label for="model">Model dorit:</label>
+                <select id="model" name="model" required>
+                    <option value="">Selectează un model</option>
+                    <option value="Polo">Polo</option>
+                    <option value="Golf">Golf</option>
+                    <option value="Passat">Passat</option>
+                    <option value="Tiguan">Tiguan</option>
+                    <option value="Taigo">Taigo</option>
+					<option value="Tayron">Tayron</option>
+                </select>
+
+                <label for="oras">Oraș pentru test:</label>
+                <input type="text" id="oras" name="oras" required>
+
+                <button type="submit">Trimite cererea</button>
+            </form>
+        </section>
+
+        <section class="social-media">
+            <h2>Rețele Sociale</h2>
+            <p>Conectează-te cu noi:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/VolkswagenRomania" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/volkswagenromania" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/user/VolkswagenRomania" target="_blank">YouTube</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Volkswagen România</p>
+    </footer>
+</body>
+</html>

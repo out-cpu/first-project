@@ -1,0 +1,216 @@
+/* Resetare stiluri implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stiluri generale */
+body {
+    font-family: 'VAG Rounded', sans-serif;
+    background-color: #2f215e;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #001E50;
+    padding: 20px;
+    text-align: center;
+	color:#ffffff;
+}
+
+header .logo img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #252d85;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero .btn-primary {
+    background-color: #00b140;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn-primary:hover {
+    background-color: #008c2e;
+}
+
+/* Oferta Section */
+.oferta {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #252d85;
+    color: white;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+	margin: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+.card .btn-secondary {
+    background-color: #00b140;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card .btn-secondary:hover {
+    background-color: #008c2e;
+}
+
+/* Footer */
+footer {
+    background-color: #252d85;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*  SCROLL  */
+
+div.scroll-container {
+  background-color: #fcfcfc;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+/* ISTORIA */
+
+.timeline {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.event {
+    background-color: #ffffff;
+    border-left: 5px solid #003399;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.event h2 {
+    color: #003399;
+    margin-bottom: 10px;
+}
+
+.event p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* CONTACT */
+
+main {
+	background-color: #ffffff;
+}
+
+.map-container {
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.test-drive, .dealer-locator, .social-media, .contact-form, .contact-info {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.test-drive label, .contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.test-drive input, .test-drive select, .contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.test-drive button, .contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #003399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.test-drive button:hover, .contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin: 10px 0;
+}
+
+
+
